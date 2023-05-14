@@ -19,7 +19,7 @@ const Navbar = () => {
               height="75"
               className="cursor-pointer"
               priority alt={"Taverna Primaverii"}  /> 
-              <motion.h1 whileHover={{scale:1.05,transition:{duration:1},color:["rgb(0,0,0)","rgb(8,100,13)"]}}  className="ml-3 cursor-pointer  text-2xl text-color">
+              <motion.h1 whileHover={{scale:1.05,transition:{duration:1},color:["rgb(0,0,0)","rgb(8,100,13)"]}}  className="ml-3 cursor-pointer  text-2xl text-color w-auto h-auto">
              
               
                Taverna <span className="text-color-secondary rewrite">Primaverii</span>

@@ -51,23 +51,19 @@ const Navbar = () => {
   <div className={
     menuOpen ? "fixed left-0 top-0 w-[65%] sm:hidden h-screen bg-[#ecf0f3] p-10 ease-in duration-500" : "fixed left-[-100%] top-0 p-10 ease-in duration-500"
   }>
-<div className="flex w-full items-center justify-end">
-<div onClick={handleNav} className="cursor-pointer">
-    <AiOutlineClose size={25}></AiOutlineClose>
-</div>
-</div>
+
 <div className="flex-col py-10">
   
     <ul>
-        <li className="py-4 text-xl">Meniu cu optiuni</li>
+      
 <Link href="#despre">
-    <li onClick={()=>setmenuOpen(false)} className="font-bold py-10 cursor-pointer text-xl uppercase "> - Despre</li>
+    <li onClick={()=>setmenuOpen(false)} className="font-bold mb-10 cursor-pointer text-xl uppercase "> - Despre</li>
 </Link>
 <Link href="#inchirieri">
-    <li onClick={()=>setmenuOpen(false)} className="py-10 cursor-pointer text-xl uppercase font-bold ">- Inchiriere</li>
+    <li onClick={()=>setmenuOpen(false)} className=" mb-10 cursor-pointer text-xl uppercase font-bold ">- Inchiriere</li>
 </Link>
 <Link href="#contact">
-    <li onClick={()=>setmenuOpen(false)} className="py-10 cursor-pointer text-xl uppercase font-bold ">- Contact</li>
+    <li onClick={()=>setmenuOpen(false)} className="mb-10 cursor-pointer text-xl uppercase font-bold ">- Contact</li>
 </Link>
     </ul>
 

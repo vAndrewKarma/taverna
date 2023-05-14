@@ -72,7 +72,8 @@ const Navbar = () => {
     </ul>
 
 </div>
-<div className="flex flex-row justify-around pt-10 items-center">
+
+<div className="flex flex-row justify-around pt-12  items-center">
    <Link href="https://facebook.com">
     <AiOutlineFacebook size={30} className="cursor-pointer"/>
     </Link>

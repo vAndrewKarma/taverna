@@ -35,7 +35,7 @@ console.log(semnatura)
     return (
         <section>
         <div>
-        <div className="mx-auto px-4 pt-24 justify-between flex">
+        <div className="mx-auto px-4 pt-24 lg:justify-between flex">
           <div className="flex flex-wrap -mx-4">
             <div className="w-full lg:w-1/3 px-4 mb-8">
               <motion.h2
@@ -73,7 +73,7 @@ console.log(semnatura)
 
           >
           <Image
-  className="sm:block rounded-lg ml-2  shadow-lg sm:max-w-screen-sm  mx-auto "
+  className="rounded-lg shadow-lg "
   src="https://media.discordapp.net/attachments/546051347351601182/1106979026402291802/photo.jpg?width=901&height=676"
   alt={""}
 width="800"
@@ -82,16 +82,7 @@ height="900"
             </motion.div>
         </div>
         </div>
-        {/* <footer className="text-2xl lg:text-4xl text-green-600 font-bold leading-[90%] tracking-[2px] font-sans py-4 px-6 sm:px-12 md:px-16 lg:px-20 xl:px-24 flex flex-col items-center justify-center absolute bottom-0 w-full">
-
-<p>Social Media</p>
-<span className="flex items-center text-green-800 gap-5 mt-5"> 
-  <AiOutlineInstagram/> 
-  <AiOutlineTwitter/>
-  <AiOutlineFacebook/>
-</span>
-
-</footer> */}
+     
 
 
 </section>

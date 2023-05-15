@@ -12,30 +12,30 @@ const Footer = () => {
 <div className="flex items-center gap-10">
 
 <Link href="https://www.instagram.com/mariopsg12/">
-  <motion.span className="text-green-800 mt-5" 
+  <motion.p className="text-green-800 mt-5" 
   initial={{ x: -200, opacity: 0 }}
   animate={{ x: 0, opacity: 1 }}
   whileHover={{scale:0.80, transition:{duration:0.2}}}
   transition={{ delay: 1.5, duration: 2, type: "spring", stiffness: 120 }}  >  
-    <AiOutlineInstagram size={30} /> </motion.span>
+    <AiOutlineInstagram size={30} /> </motion.p>
     </Link>
     <Link href="https://twitter.com">
-    <motion.span className="text-green-800 mt-5" 
+    <motion.p className="text-green-800 mt-5" 
   initial={{ x: -200, opacity: 0 }}
   animate={{ x: 0, opacity: 1 }}
   whileHover={{scale:0.80, transition:{duration:0.2}}}
   transition={{ delay: 1.5, duration: 2, type: "spring", stiffness: 120 }}  >  
-    <AiOutlineTwitter size={30} /></motion.span>
+    <AiOutlineTwitter size={30} /></motion.p>
 </Link>
 
 <Link href="https://facebook.com">
-     <motion.span className="text-green-800 mt-5" 
+     <motion.p className="text-green-800 mt-5" 
   initial={{ x: -200, opacity: 0,scale:1 }}
   animate={{ x: 0, opacity: 1 }}
-  whileHover={{scale:1.5, transition:{duration:0.2}}}
+  whileHover={{scale: 0.80, transition:{duration:0.2}}}
   transition={{ delay: 1.5, duration: 2, type: "spring", stiffness: 120 }}  >  
    <AiOutlineFacebook size={30} />
-   </motion.span>
+   </motion.p>
    </Link>
    </div>
   
